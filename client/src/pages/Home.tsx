@@ -564,7 +564,7 @@ npx expo start`}</code>
               <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px", padding: "20px 0" }}>
                 <div style={{ padding: "16px", backgroundColor: "white", borderRadius: "0.75rem", boxShadow: `0 0 20px ${colors.secondary}33` }}>
                   <img 
-                    src="/qr-code.png" 
+                    src="qr-code.png" 
                     alt="Expo Build QR Code" 
                     style={{ width: "200px", height: "200px" }}
                   />

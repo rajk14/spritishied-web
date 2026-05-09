@@ -40,11 +40,11 @@ export default function Home() {
   const [currentPreviewIndex, setCurrentPreviewIndex] = useState(0);
 
   const previewImages = [
-    { src: "/previews/preview-5.jpg", title: "Survival Tactical", desc: "Premium survival OS branding" },
-    { src: "/previews/preview-1.jpg", title: "Location Discovery", desc: "Tactical GPS & Mesh node triangulation" },
-    { src: "/previews/preview-2.jpg", title: "Survival AI", desc: "Local inference brain for zero-signal reasoning" },
-    { src: "/previews/preview-3.jpg", title: "Local Mesh", desc: "P2P community safety network" },
-    { src: "/previews/preview-4.jpg", title: "Emergency SOS", desc: "High-frequency audio & satellite mesh beacon" },
+    { src: "previews/preview-5.jpg", title: "Survival Tactical", desc: "Premium survival OS branding" },
+    { src: "previews/preview-1.jpg", title: "Location Discovery", desc: "Tactical GPS & Mesh node triangulation" },
+    { src: "previews/preview-2.jpg", title: "Survival AI", desc: "Local inference brain for zero-signal reasoning" },
+    { src: "previews/preview-3.jpg", title: "Local Mesh", desc: "P2P community safety network" },
+    { src: "previews/preview-4.jpg", title: "Emergency SOS", desc: "High-frequency audio & satellite mesh beacon" },
   ];
 
   const nextPreview = () => setCurrentPreviewIndex((prev) => (prev + 1) % previewImages.length);

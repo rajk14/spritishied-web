@@ -6,13 +6,15 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
+import { Route, Switch, Router as WouterRouter } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
+
 function Router() {
   return (
-    <WouterRouter base="/spritishied-web">
+    <WouterRouter hook={useHashLocation}>
       <Switch>
-        <Route path={"/"} component={Home} />
-        <Route path={"/404"} component={NotFound} />
-        {/* Final fallback route */}
+        <Route path="/" component={Home} />
+        <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>
     </WouterRouter>

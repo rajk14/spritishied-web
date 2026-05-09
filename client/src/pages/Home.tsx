@@ -573,7 +573,7 @@ npx expo start`}</code>
                 <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "8px" }}>
                   <span style={{ fontSize: "0.75rem", fontWeight: "600", color: colors.mutedFg, textTransform: "uppercase", letterSpacing: "0.05em" }}>Direct Link</span>
                   <a 
-                    href="https://expo.dev/accounts/rajsinha/projects/spitishield-mobile/builds/e66d1ef3-1d6c-4eac-9d0b-412167ddd85d"
+                    href="https://expo.dev/accounts/rajsinha/projects/spitishield-mobile/builds/569c97ba-248a-4892-91f8-eab8ceec06de"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ 
